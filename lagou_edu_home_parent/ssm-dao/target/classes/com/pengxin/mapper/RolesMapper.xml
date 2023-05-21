@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pengxin.mapper.RolesMapper">
+    <select id="finRolesAll" parameterType="com.pengxin.pojo.Role" resultType="com.pengxin.pojo.Role">
+        select * from roles
+            <if test="name!=null and name!='' ">
+                <where>
+                    and name=#{name}
+                </where>
+            </if>
+    </select>
+    <!--根据角色删除菜单关联信息-->
+    <delete id="deleteMenuByRoleId" parameterType="int">
+        delete from role_menu_relation where role_id=#{id}
+    </delete>
+    <!--为角色分配菜单列表-->
+    <insert id="addMenuByRoles" parameterType="com.pengxin.pojo.Role_menu_relation">
+insert into role_menu_relation values(null,#{menuId},#{roleId},#{createdTime},#{updatedTime},#{createdBy},#{updatedby})
+    </insert>
+
+    <!--删除角色信息-->
+    <delete id="deleteRoles" parameterType="int">
+        delete from roles where id=#{id}
+    </delete>
+</mapper>

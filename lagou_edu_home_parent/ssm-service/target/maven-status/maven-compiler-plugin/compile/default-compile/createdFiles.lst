@@ -1,0 +1,16 @@
+com\pengxin\service\Impl\CourseServiceImpl.class
+com\pengxin\service\CourseService.class
+com\pengxin\service\Impl\MenuServiceImpl.class
+com\pengxin\service\MenuService.class
+com\pengxin\service\Impl\PromotionSpaceServiceImpl.class
+com\pengxin\service\Impl\CourseCentenServiceImpl.class
+com\pengxin\service\ResourceService.class
+com\pengxin\service\Impl\UserServiceImpl.class
+com\pengxin\service\Impl\PromotionPageServiceImpl.class
+com\pengxin\service\UserService.class
+com\pengxin\service\Impl\ResourceServiceImpl.class
+com\pengxin\service\PromotionSpaceService.class
+com\pengxin\service\CourseCentenService.class
+com\pengxin\service\PromotionPageService.class
+com\pengxin\service\Impl\RolesServiceImpl.class
+com\pengxin\service\RolesService.class

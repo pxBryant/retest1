@@ -1,0 +1,8 @@
+com\pengxin\mapper\ResourceMapper.class
+com\pengxin\mapper\CourseContenMapper.class
+com\pengxin\mapper\RolesMapper.class
+com\pengxin\mapper\PromotionSpaceMapper.class
+com\pengxin\mapper\MenuMapper.class
+com\pengxin\mapper\CourseMapper.class
+com\pengxin\mapper\PromotionPageMapper.class
+com\pengxin\mapper\UserMapper.class

@@ -1,0 +1,9 @@
+com\pengxin\controller\RolesController.class
+com\pengxin\controller\ResourceController.class
+com\pengxin\controller\CourseCentenController.class
+com\pengxin\controller\UserController.class
+com\pengxin\controller\TestController.class
+com\pengxin\controller\MenuContoller.class
+com\pengxin\controller\PromotionSpaceController.class
+com\pengxin\controller\PromotionPageController.class
+com\pengxin\controller\CourseController.class
